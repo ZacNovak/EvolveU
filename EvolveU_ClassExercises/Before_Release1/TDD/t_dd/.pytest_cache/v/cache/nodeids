@@ -1,0 +1,7 @@
+[
+  "test_grade.py::TestDates::test_grade",
+  "test_our_math.py::TestDates::test_math",
+  "test_our_math.py::TestDates::test_one",
+  "test_our_math.py::TestDates::test_two",
+  "test_words.py::TestDates::test_words"
+]

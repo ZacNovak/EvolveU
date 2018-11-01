@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title></title>
+    <meta content="">
+    <style></style>
+    <link rel="stylesheet" type="text/css" href="example.css">
+    <script> console.log("Hello World from inline Javascript!");</script>
+    <script src="example1.js"> </script>
+  </head>
+  <body>
+	
+	<h1> JavaScript Events </h1>
+	<button type="button">Push Me!</button>
+	<button onclick="this.innerHTML = Date()">The time is?</button>
+	<button onclick= "myfunction();">Push me 2 - double the trouble - woop!</button>
+	<button onmouseover= "love();"> Who do you love?</button>
+  	<button onmouseover= "addstufftodiv();"> ADD stuff</button>
+  	<div id = "NewDiv" onmouseover = "clearstuff();">This is my new div</div>
+  	<br/>
+  	<div id = "calculator">
+  		<h1> Calculator </h1>
+  		<form method="get" id="form1">
+  			First Number:<br>
+  			<input id = "firstnumber" type="text" name="firstnumber"><br>
+  			Second Number:<br>
+  			<input id = "secondnumber" type="text" name="lastnumber">
+		</form>
+		<button onclick="add()">Add</button>
+  		<div id = "answer">test</div>
+  	</div>
+   	<div id = "calculator">
+  		<h1> X and Y </h1>
+  		<form method="get" id="form1">
+  			X Axis:<br>
+  			<input id = "xaxis" type="text" name="xaxis"><br>
+  			Y Axis:<br>
+  			<input id = "yaxis" type="text" name="yaxis">
+		</form>
+		<button onclick="circleplacement()">Place Circle</button>
+  		<div>
+  		<svg height="2000" width = "2000">
+  			<circle id = "circle" cx="500" cy="300" r="40" stroke="green" stroke-width="4" fill="yellow" />
+  		</svg>
+  		</div>
+  	</div>
+  	<!-- <div id ="SVG">
+  		<h1> Working with SVG!</h1> 
+  		<svg height="2000" width = "2000">
+  			<circle id = "circle" cx="500" cy="300" r="40" stroke="green" stroke-width="4" fill="yellow" onmouseover = "moveright();" />
+  			<rect x = "600" y = "100" width="400" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
+    		<polygon width="100" height = "200" id="e1_polygon" style="" points="0 0, 0 500, 300 0" fill="#DDF5FF"/>
+  		</svg>
+  	</div> -->
+</body>
+</html>

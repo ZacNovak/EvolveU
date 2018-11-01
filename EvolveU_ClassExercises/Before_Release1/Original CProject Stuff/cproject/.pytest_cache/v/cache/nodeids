@@ -1,0 +1,5 @@
+[
+  "test_cspace.py::TestDates::test_getEmptyRooms",
+  "test_cspace.py::TestDates::test_getRowNumber",
+  "test_cspace.py::TestDates::test_printRooms"
+]

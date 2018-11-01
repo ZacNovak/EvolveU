@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>No Credits</title>
+    <meta content="">
+    <style></style>
+  </head>
+  <body>
+    <table class="table table-striped">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Month</th>
+            <th scope="col">Credits</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for client in clients %}
+        <tr>
+            <td>{{client.name}}</td>
+            <td>{{client.month}}</td>
+            <td>{{client.credits}}</td>
+
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table> 
+    <a href="/">Go Back</a>      
+  </body>
+</html>
