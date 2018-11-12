@@ -1,0 +1,39 @@
+.top {
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.half {
+    float: left;
+    width: 50%;
+    min-height: 400px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+}
+
+
+.bottom {
+    clear: both;
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    float: left;
+    margin: 10px;
+    margin-right: 20px;
+
+}
+
+.DivBuilder {
+    display: block;
+}
