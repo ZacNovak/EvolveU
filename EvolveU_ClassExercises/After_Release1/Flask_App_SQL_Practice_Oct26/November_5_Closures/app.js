@@ -58,7 +58,7 @@ var myModule = (function() {
         var JSONInputText = JSON.parse(inputText);
         if(Array.isArray(JSONInputText)){
             var printInputText = printArray(JSONInputText); 
-            document.querySelector('.bottomtext').innerHTML = printInputText;
+                document.querySelector('.bottomtext').innerHTML = printInputText;
 
             document.querySelector('.smallestnumber').innerHTML = getSmallest(JSONInputText);
              document.querySelector('.largestnumber').innerHTML = getLargest(JSONInputText);
