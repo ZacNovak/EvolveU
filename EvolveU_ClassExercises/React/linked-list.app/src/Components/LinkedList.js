@@ -62,8 +62,9 @@ class LinkedList {
     insert(subject, amount){
        let nodeStore = this.current.forwardNode;
        this.current.forwardNode = new Node(subject, amount);
-       this.current.forwardNode.previouseNode = this.current; 
        this.current.forwardNode.forwardNode = nodeStore;
+       this.current.forwardNode.previouseNode = this.current; 
+       this.current.forwardNode.forwardNode.previouseNode = this.current.forwardNode; 
        this.current = this.current.forwardNode;
        return this.current.subject + " - " + this.current.amount;
     }
